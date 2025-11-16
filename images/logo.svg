@@ -1,0 +1,45 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="200" cy="200" r="180" fill="#FFF9E6" opacity="0.3"/>
+  
+  <!-- Sun rays -->
+  <g transform="translate(200, 150)">
+    <!-- Long rays -->
+    <line x1="0" y1="-70" x2="0" y2="-90" stroke="#FDB813" stroke-width="8" stroke-linecap="round"/>
+    <line x1="49.5" y1="-49.5" x2="63.6" y2="-63.6" stroke="#FDB813" stroke-width="8" stroke-linecap="round"/>
+    <line x1="70" y1="0" x2="90" y2="0" stroke="#FDB813" stroke-width="8" stroke-linecap="round"/>
+    <line x1="49.5" y1="49.5" x2="63.6" y2="63.6" stroke="#FDB813" stroke-width="8" stroke-linecap="round"/>
+    
+    <!-- Diagonal rays -->
+    <line x1="-49.5" y1="-49.5" x2="-63.6" y2="-63.6" stroke="#FDB813" stroke-width="8" stroke-linecap="round"/>
+    <line x1="-70" y1="0" x2="-90" y2="0" stroke="#FDB813" stroke-width="8" stroke-linecap="round"/>
+    <line x1="-49.5" y1="49.5" x2="-63.6" y2="63.6" stroke="#FDB813" stroke-width="8" stroke-linecap="round"/>
+    <line x1="0" y1="70" x2="0" y2="90" stroke="#FDB813" stroke-width="8" stroke-linecap="round"/>
+    
+    <!-- Sun circle -->
+    <circle cx="0" cy="0" r="55" fill="#FFD700"/>
+    <circle cx="0" cy="0" r="55" fill="url(#sunGradient)"/>
+  </g>
+  
+  <!-- Sparkle/clean effects -->
+  <g opacity="0.8">
+    <path d="M 280 120 L 285 125 L 290 120 L 285 115 Z" fill="#4FC3F7"/>
+    <path d="M 320 180 L 323 183 L 326 180 L 323 177 Z" fill="#4FC3F7"/>
+    <path d="M 100 130 L 105 135 L 110 130 L 105 125 Z" fill="#4FC3F7"/>
+  </g>
+  
+  <!-- Company name -->
+  <text x="200" y="260" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="#2C5F8D" text-anchor="middle">SUNSHINE</text>
+  <text x="200" y="295" font-family="Arial, sans-serif" font-size="28" font-weight="normal" fill="#4A90A4" text-anchor="middle">DRY CLEANERS</text>
+  
+  <!-- Tagline (optional) -->
+  <text x="200" y="320" font-family="Arial, sans-serif" font-size="14" fill="#7AB8C9" text-anchor="middle" font-style="italic">Brightening Your Wardrobe</text>
+  
+  <!-- Gradients -->
+  <defs>
+    <radialGradient id="sunGradient">
+      <stop offset="0%" style="stop-color:#FFF59D;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFD700;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+</svg>

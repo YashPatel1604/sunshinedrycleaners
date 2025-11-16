@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunshine Dry Cleaners - Premium Garment Care</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Professional Entrance Animation -->
+    <div id="entrance-animation" class="entrance-animation">
+        <div class="entrance-content">
+            <div class="entrance-logo">☀️</div>
+            <div class="entrance-text">Sunshine Dry Cleaners</div>
+        </div>
+    </div>
+    
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#home">
+                <img src="images/logo.svg" alt="Sunshine Dry Cleaners Logo" class="logo-img me-2" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                <span class="logo-text" style="display: none;">☀️ Sunshine Dry Cleaners</span>
+                <span class="brand-name">Sunshine Dry Cleaners</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Latest Blog</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-background"></div>
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h1 class="display-3 fw-bold mb-4 hero-title">Sunshine Dry Cleaners</h1>
+                    <p class="lead mb-5 hero-subtitle">Premium garment care with eco-friendly solutions</p>
+                    <div class="hero-buttons">
+                        <a href="#services" class="btn btn-primary btn-lg me-3 mb-3">Our Services</a>
+                        <a href="#contact" class="btn btn-outline-primary btn-lg mb-3">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-5" style="background-color: #FAFAFA;">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold">Our Services</h2>
+                <p class="lead text-muted">Comprehensive garment care solutions for all your needs</p>
+            </div>
+            <div class="row g-4">
+                <!-- Service 1: Dry Cleaning -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm service-card">
+                        <div class="service-image-wrapper">
+                            <img src="images/services/dry-cleaning.png" alt="Dry Cleaning Service" class="service-image" onerror="this.style.display='none';">
+                            <div class="service-icon-fallback">
+                                <i class="bi bi-droplet-fill display-4 text-primary"></i>
+                            </div>
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Dry Cleaning</h5>
+                            <p class="card-text">Experience unparalleled dry cleaning services tailored to your garments' needs. Our expert team ensures every fabric is treated with care, leaving your clothes fresh, clean, and ready to impress.</p>
+                            <a href="#contact" class="btn btn-outline-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 2: Wet Cleaning -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm service-card">
+                        <div class="service-image-wrapper">
+                            <img src="images/services/wet-cleaning.png" alt="Wet Cleaning Service" class="service-image" onerror="this.style.display='none';">
+                            <div class="service-icon-fallback">
+                                <i class="bi bi-water display-4 text-info"></i>
+                            </div>
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Wet Cleaning</h5>
+                            <p class="card-text">Discover the superior cleaning power of wet cleaning. Our advanced wet cleaning services ensure your clothes receive the gentlest care while effectively removing stubborn stains.</p>
+                            <a href="#contact" class="btn btn-outline-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 3: Alterations -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm service-card">
+                        <div class="service-image-wrapper">
+                            <img src="images/services/alterations.png" alt="Alterations Service" class="service-image" onerror="this.style.display='none';">
+                            <div class="service-icon-fallback">
+                                <i class="bi bi-scissors display-4 text-success"></i>
+                            </div>
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Alterations</h5>
+                            <p class="card-text">Precision alterations and expert repairs for your wardrobe essentials. From hemming to mending, trust us for quality craftsmanship and attention to detail.</p>
+                            <a href="#contact" class="btn btn-outline-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 4: Comforter & Bed Linen -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm service-card">
+                        <div class="service-image-wrapper">
+                            <img src="images/services/bed-linen.png" alt="Bed Linen Cleaning" class="service-image" onerror="this.style.display='none';">
+                            <div class="service-icon-fallback">
+                                <i class="bi bi-house-heart display-4 text-warning"></i>
+                            </div>
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Comforter And Bed Linen Dry Cleaning</h5>
+                            <p class="card-text">Keep your bedding and home linens fresh and allergen-free with our expert dry cleaning services for comforters, duvets, pillows, drapes, tablecloths, and more.</p>
+                            <a href="#contact" class="btn btn-outline-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 5: Wedding Gown -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm service-card">
+                        <div class="service-image-wrapper">
+                            <img src="images/services/wedding-gown.png" alt="Wedding Gown Cleaning" class="service-image" onerror="this.style.display='none';">
+                            <div class="service-icon-fallback">
+                                <i class="bi bi-heart-fill display-4 text-danger"></i>
+                            </div>
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Wedding Gown Dry Cleaning</h5>
+                            <p class="card-text">Preserve the beauty and elegance of your wedding gown and couture dresses with our specialized dry cleaning service. Our experts use gentle, effective techniques to clean and protect your precious garments.</p>
+                            <a href="#contact" class="btn btn-outline-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 6: Express Services -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm service-card">
+                        <div class="service-image-wrapper">
+                            <img src="images/services/express.png" alt="Express Service" class="service-image" onerror="this.style.display='none';">
+                            <div class="service-icon-fallback">
+                                <i class="bi bi-lightning-fill display-4 text-warning"></i>
+                            </div>
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Express (Same Day) Services</h5>
+                            <p class="card-text">Experience convenience and efficiency with our express dry cleaning services. Whether you're in a hurry or need your garments cleaned urgently, our dedicated team ensures prompt turnaround times without compromising on quality.</p>
+                            <a href="#contact" class="btn btn-outline-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 7: Shoe Cleaning -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm service-card">
+                        <div class="service-image-wrapper">
+                            <img src="images/services/shoe-cleaning.png" alt="Shoe Cleaning" class="service-image" onerror="this.style.display='none';">
+                            <div class="service-icon-fallback">
+                                <i class="bi bi-bag display-4 text-secondary"></i>
+                            </div>
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Shoe Cleaning</h5>
+                            <p class="card-text">Refresh and renew your shoes with our expert cleaning services. From sneakers to leather boots, we'll remove dirt, stains, and odors, leaving your footwear looking pristine.</p>
+                            <a href="#contact" class="btn btn-outline-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold">Why Choose Us?</h2>
+                <p class="lead text-muted">Discover what makes Sunshine Dry Cleaners the perfect choice for your garments.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4 text-center">
+                    <div class="feature-box p-4">
+                        <i class="bi bi-lightning-charge-fill display-4 text-warning mb-3"></i>
+                        <h4>🚀 Fast & Reliable</h4>
+                        <p>Enjoy same-day service—drop off by 9:00 AM and pick up fresh by 5:00 PM.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="feature-box p-4">
+                        <i class="bi bi-flower1 display-4 text-success mb-3"></i>
+                        <h4>🌱 Eco-Friendly</h4>
+                        <p>We use environmentally conscious cleaning solutions that protect your clothes and the planet.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="feature-box p-4">
+                        <i class="bi bi-check-circle-fill display-4 text-primary mb-3"></i>
+                        <h4>👌 Hassle Free</h4>
+                        <p>Easy dropoff, quick turnaround to fit your busy lifestyle.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Reviews Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold">What Our Customers Say ⭐</h2>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                            <p class="card-text">"Extremely helpful in measuring my pants to tailor them to the size I needed. Great service and attention to detail!"</p>
+                            <p class="text-muted mb-0"><strong>– Nick Brasher</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                            <p class="card-text">"Great job fixing the buttons on my jacket and adjusting the sleeves. Professional work and excellent customer service!"</p>
+                            <p class="text-muted mb-0"><strong>– William Mcquater</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                            <p class="card-text">"Really nice they gave me a rush service and got it in a day! Fast, efficient, and always delivers quality work when I need it most."</p>
+                            <p class="text-muted mb-0"><strong>– Joshua Wen</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="https://www.google.com/search?q=sunshine+dry+cleaners&oq=sunshine+dry+cleaners&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDINCAEQLhivARjHARiABDIHCAIQABiABDIHCAMQABiABDINCAQQLhivARjHARiABDIGCAUQRRg9MgYIBhBFGD0yBggHEEUYPdIBCDM4NzJqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8&zx=1763265449199&no_sw_cr=1&lqi=ChVzdW5zaGluZSBkcnkgY2xlYW5lcnNInY7o9eWAgIAIWiMQABABEAIYABgBGAIiFXN1bnNoaW5lIGRyeSBjbGVhbmVyc5IBC2RyeV9jbGVhbmVymgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU01TldKSVZrcG5FQUWqAWYKCy9nLzF0ZnJtdDkxEAEqGSIVc3Vuc2hpbmUgZHJ5IGNsZWFuZXJzKAAyHxABIhtRXdr_3QGqEbIlBzAEFw4skhKQj1cKngFiyhUyGRACIhVzdW5zaGluZSBkcnkgY2xlYW5lcnPgAQD6AQQIGBAe#rlimm=17624929400507786990" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary">Read More Reviews on Google</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="py-5 bg-white">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold">Our Work</h2>
+                <p class="lead text-muted">See the quality and care we bring to every garment</p>
+            </div>
+            <div class="row g-3">
+                <div class="col-md-4">
+                    <div class="gallery-item">
+                        <img src="images/gallery/gallery-1.png" alt="Dry Cleaning Service" class="img-fluid rounded" onerror="this.style.display='none';">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="gallery-item">
+                        <img src="images/gallery/gallery-2.png" alt="Professional Cleaning" class="img-fluid rounded" onerror="this.style.display='none';">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="gallery-item">
+                        <img src="images/gallery/gallery-3.png" alt="Quality Service" class="img-fluid rounded" onerror="this.style.display='none';">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="gallery-item">
+                        <img src="images/gallery/gallery-4.png" alt="Expert Care" class="img-fluid rounded" onerror="this.style.display='none';">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="gallery-item">
+                        <img src="images/gallery/gallery-5.png" alt="Clean Results" class="img-fluid rounded" onerror="this.style.display='none';">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="gallery-item">
+                        <img src="images/gallery/gallery-6.png" alt="Professional Service" class="img-fluid rounded" onerror="this.style.display='none';">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold">Contact Us</h2>
+                <p class="lead text-muted">Get in touch with us today</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <div class="contact-info">
+                        <h4>Visit Us</h4>
+                        <p><i class="bi bi-geo-alt-fill me-2"></i>529 McKinley St, Corona, CA 92879</p>
+                        <p><i class="bi bi-building me-2"></i>Located in: Corona Hills Plaza</p>
+                        <p><i class="bi bi-envelope-fill me-2"></i>sunshinedrycleaners529@gmail.com</p>
+                        <p><i class="bi bi-telephone-fill me-2"></i>(951) 272-8949</p>
+                        <h5 class="mt-4">Business Hours</h5>
+                        <p>Monday - Friday: 7:00 AM - 6:00 PM<br>
+                        Saturday: 8:00 AM - 5:00 PM<br>
+                        Sunday: Closed</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <form id="contactForm" class="contact-form">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">Phone</label>
+                            <input type="tel" class="form-control" id="phone">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold">Latest Blog</h2>
+                <p class="lead text-muted">Tips, news, and updates from Sunshine Dry Cleaners</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">How to Care for Your Delicate Fabrics</h5>
+                            <p class="card-text text-muted">Learn the best practices for maintaining your delicate garments...</p>
+                            <a href="#" class="btn btn-sm btn-outline-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Eco-Friendly Cleaning: Why It Matters</h5>
+                            <p class="card-text text-muted">Discover the benefits of eco-friendly dry cleaning methods...</p>
+                            <a href="#" class="btn btn-sm btn-outline-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Preparing Your Wedding Gown for Storage</h5>
+                            <p class="card-text text-muted">Essential tips for preserving your wedding dress after the big day...</p>
+                            <a href="#" class="btn btn-sm btn-outline-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h5>Sunshine Dry Cleaners</h5>
+                    <p>Premium garment care with eco-friendly solutions. Your trusted partner for all your dry cleaning needs.</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Company</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#about" class="text-white-50 text-decoration-none">About Us</a></li>
+                        <li><a href="#services" class="text-white-50 text-decoration-none">Services</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Contact</h5>
+                    <p class="mb-1">sunshinedrycleaners529@gmail.com</p>
+                    <p class="mb-1">529 McKinley St, Corona, CA 92879</p>
+                    <p class="mb-1">(951) 272-8949</p>
+                    <div class="social-links mt-3">
+                        <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="text-white me-3"><i class="bi bi-youtube"></i></a>
+                        <a href="#" class="text-white me-3"><i class="bi bi-pinterest"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4 bg-white-50">
+            <div class="text-center">
+                <p class="mb-0">&copy; 2024 All Rights Reserved Powered by Sunshine Dry Cleaners</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cookie Consent (Optional) -->
+    <div id="cookieConsent" class="cookie-consent" style="display: none;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-8">
+                    <p class="mb-0">This website uses cookies to provide you with the best browsing experience.</p>
+                </div>
+                <div class="col-md-4 text-end">
+                    <button class="btn btn-sm btn-primary me-2" onclick="acceptCookies()">Accept</button>
+                    <button class="btn btn-sm btn-outline-light" onclick="declineCookies()">Decline</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- EmailJS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
+
